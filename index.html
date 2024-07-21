@@ -34,22 +34,49 @@
     </div>
   </aside>
   <main class="w-full h-screen pl-16">
-    <div class="w-72 h-full bg-[#F6F8FC] px-4 py-5 flex flex-col gap-4">
+    <div class="w-72 h-full bg-[#F6F8FC] px-4 py-5 flex flex-col gap-3">
       <img src="./assets/logo_gmail_lockup_default_2x_r5.png" alt="" class="w-32 h-12">
       <div class="w-40 py-4 rounded-3xl bg-[#C2E7FF] flex items-center justify-center gap-2">
         <img src="./assets/icons8-pencil-100.png" alt="" class="w-6">
         <h3 class="font-semibold">Compose</h3>
       </div>
-      <ul class="w-full h-56 bg-black">
-        <li class="w-full py-3 bg-white rounded-xl">
-          
+      <ul class="w-full h-56 flex flex-col gap-2 ">
+        <li class="w-full px-1 bg-[#D3E3FD] rounded-xl flex items-center gap-5 cursor-pointer">
+          <img src="./assets/inbox.png" alt="" class="w-7 h-7">
+          <p>Inbox</p>
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li class="w-full px-1 rounded-xl flex items-center gap-6 cursor-pointer hover:bg-gray-200">
+          <img src="./assets/star.png" alt="" class="w-5 h-5">
+          <p>Starred</p>
+        </li>
+        <li class="w-full px-1 rounded-xl flex items-center gap-6 cursor-pointer hover:bg-gray-200">
+          <img src="./assets/clock.png" alt="" class="w-5 h-5 ">
+          <p>Snoozed</p>
+        </li>
+        <li class="w-full px-1 rounded-xl flex items-center gap-6 cursor-pointer hover:bg-gray-200">
+          <img src="./assets/send.png" alt="" class="w-5 h-5">
+          <p>Sent</p>
+        </li>
+        <li class="w-full px-1 rounded-xl flex items-center gap-6 cursor-pointer hover:bg-gray-200">
+          <img src="./assets/draft.png" alt="" class="w-5 h-5">
+          <p>Draft</p>
+        </li>
+        <li class="w-full px-1 rounded-xl flex items-center gap-6 cursor-pointer hover:bg-gray-200">
+          <img src="./assets/down-arrow.png" alt="" class="w-5 h-5">
+          <p>More</p>
+        </li>
       </ul>
+      <div class="w-full h-24 mt-[-20px]">
+        <div class="w-full h-8 flex items-center justify-between">
+          <h1 class="font-semibold">Labels</h1>
+          <img src="./assets/plus.png" alt="" class="w-4 h-4">
+        </div>
+        <div class="group w-full h-9 rounded-2xl cursor-pointer flex items-center justify-between px-4 hover:bg-gray-200">
+          <img src="./assets/save-instagram.png" alt="" class="cursor-pointer w-9 h-9 rounded-full overflow-visible px-2 py-2 hover:bg-gray-300">
+          <p class="font-medium">Scrum</p>
+          <img src="./assets/more.png" alt="" class="cursor-pointer w-9 h-9 rounded-full opacity-0 overflow-visible px-1 py-1 hover:bg-gray-300 group-hover:opacity-100 transition-opacity duration-300">
+        </div>
+      </div>
     </div>
   </main>
 </body>
